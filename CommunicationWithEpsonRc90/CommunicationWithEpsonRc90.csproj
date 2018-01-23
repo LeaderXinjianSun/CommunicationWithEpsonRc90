@@ -44,17 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommunicationWithEpsonRc90.cs" />
+    <Compile Include="DXHTCPClient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BingLibrary\BingLibrary.csproj">
-      <Project>{4af25010-f781-4a08-886f-7b40fe1c772f}</Project>
-      <Name>BingLibrary</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
